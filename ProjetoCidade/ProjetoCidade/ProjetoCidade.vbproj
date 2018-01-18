@@ -78,6 +78,12 @@
     <Compile Include="Casino.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Registar.Designer.vb">
+      <DependentUpon>Registar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Registar.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Login.Designer.vb">
       <DependentUpon>Login.vb</DependentUpon>
     </Compile>

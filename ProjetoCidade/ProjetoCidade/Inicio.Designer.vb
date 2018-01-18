@@ -24,6 +24,7 @@ Partial Class Inicio
     Private Sub InitializeComponent()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Button1
@@ -56,6 +57,21 @@ Partial Class Inicio
         Me.Button2.TabIndex = 0
         Me.Button2.UseVisualStyleBackColor = False
         '
+        'Button3
+        '
+        Me.Button3.BackColor = System.Drawing.Color.Transparent
+        Me.Button3.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Button3.FlatAppearance.BorderSize = 0
+        Me.Button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent
+        Me.Button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
+        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button3.ForeColor = System.Drawing.Color.Black
+        Me.Button3.Location = New System.Drawing.Point(42, 509)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(227, 72)
+        Me.Button3.TabIndex = 0
+        Me.Button3.UseVisualStyleBackColor = False
+        '
         'Inicio
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -63,6 +79,7 @@ Partial Class Inicio
         Me.BackgroundImage = Global.WindowsApplication1.My.Resources.Resources.Início
         Me.ClientSize = New System.Drawing.Size(1008, 730)
         Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button1)
         Me.Name = "Inicio"
         Me.Text = "Form1"
@@ -71,4 +88,5 @@ Partial Class Inicio
     End Sub
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents Button2 As System.Windows.Forms.Button
+    Friend WithEvents Button3 As System.Windows.Forms.Button
 End Class

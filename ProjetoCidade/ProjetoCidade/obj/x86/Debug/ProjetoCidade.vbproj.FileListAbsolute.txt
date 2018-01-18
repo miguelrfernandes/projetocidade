@@ -26,3 +26,21 @@ F:\Programação orientada por objetos\Projeto Cidade\ProjetoCidade\ProjetoCidad
 F:\Programação orientada por objetos\Projeto Cidade\ProjetoCidade\ProjetoCidade\bin\Debug\SpaceInvaders.pdb
 F:\Programação orientada por objetos\Projeto Cidade\ProjetoCidade\ProjetoCidade\bin\Debug\SpaceInvaders.xml
 F:\Programação orientada por objetos\Projeto Cidade\ProjetoCidade\ProjetoCidade\obj\x86\Debug\WindowsApplication1.Form1.resources
+F:\Programação orientada por objetos\projetocidade\ProjetoCidade\ProjetoCidade\obj\x86\Debug\ProjetoCidade.exe
+F:\Programação orientada por objetos\projetocidade\ProjetoCidade\ProjetoCidade\obj\x86\Debug\ProjetoCidade.xml
+F:\Programação orientada por objetos\projetocidade\ProjetoCidade\ProjetoCidade\obj\x86\Debug\ProjetoCidade.pdb
+F:\Programação orientada por objetos\projetocidade\ProjetoCidade\ProjetoCidade\bin\Debug\ProjetoCidade.exe
+F:\Programação orientada por objetos\projetocidade\ProjetoCidade\ProjetoCidade\bin\Debug\ProjetoCidade.pdb
+F:\Programação orientada por objetos\projetocidade\ProjetoCidade\ProjetoCidade\bin\Debug\ProjetoCidade.xml
+F:\Programação orientada por objetos\projetocidade\ProjetoCidade\ProjetoCidade\bin\Debug\SpaceInvaders.exe
+F:\Programação orientada por objetos\projetocidade\ProjetoCidade\ProjetoCidade\bin\Debug\SpaceInvaders.pdb
+F:\Programação orientada por objetos\projetocidade\ProjetoCidade\ProjetoCidade\bin\Debug\SpaceInvaders.xml
+F:\Programação orientada por objetos\projetocidade\ProjetoCidade\ProjetoCidade\obj\x86\Debug\ProjetoCidade.vbprojResolveAssemblyReference.cache
+F:\Programação orientada por objetos\projetocidade\ProjetoCidade\ProjetoCidade\obj\x86\Debug\WindowsApplication1.Casino.resources
+F:\Programação orientada por objetos\projetocidade\ProjetoCidade\ProjetoCidade\obj\x86\Debug\WindowsApplication1.Cidade.resources
+F:\Programação orientada por objetos\projetocidade\ProjetoCidade\ProjetoCidade\obj\x86\Debug\WindowsApplication1.Inicio.resources
+F:\Programação orientada por objetos\projetocidade\ProjetoCidade\ProjetoCidade\obj\x86\Debug\WindowsApplication1.Login.resources
+F:\Programação orientada por objetos\projetocidade\ProjetoCidade\ProjetoCidade\obj\x86\Debug\WindowsApplication1.Museu.resources
+F:\Programação orientada por objetos\projetocidade\ProjetoCidade\ProjetoCidade\obj\x86\Debug\WindowsApplication1.Roleta.resources
+F:\Programação orientada por objetos\projetocidade\ProjetoCidade\ProjetoCidade\obj\x86\Debug\WindowsApplication1.Resources.resources
+F:\Programação orientada por objetos\projetocidade\ProjetoCidade\ProjetoCidade\obj\x86\Debug\ProjetoCidade.vbproj.GenerateResource.Cache

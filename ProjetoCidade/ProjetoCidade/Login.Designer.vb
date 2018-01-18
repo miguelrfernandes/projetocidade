@@ -23,6 +23,8 @@ Partial Class Login
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.tbNome = New System.Windows.Forms.TextBox()
+        Me.tbPassword = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'Button2
@@ -34,11 +36,26 @@ Partial Class Login
         Me.Button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.ForeColor = System.Drawing.Color.Black
-        Me.Button2.Location = New System.Drawing.Point(283, 469)
+        Me.Button2.Location = New System.Drawing.Point(286, 469)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(222, 81)
         Me.Button2.TabIndex = 1
         Me.Button2.UseVisualStyleBackColor = False
+        '
+        'tbNome
+        '
+        Me.tbNome.Location = New System.Drawing.Point(286, 242)
+        Me.tbNome.Name = "tbNome"
+        Me.tbNome.Size = New System.Drawing.Size(157, 20)
+        Me.tbNome.TabIndex = 2
+        '
+        'tbPassword
+        '
+        Me.tbPassword.Location = New System.Drawing.Point(286, 321)
+        Me.tbPassword.Name = "tbPassword"
+        Me.tbPassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
+        Me.tbPassword.Size = New System.Drawing.Size(157, 20)
+        Me.tbPassword.TabIndex = 3
         '
         'Login
         '
@@ -46,11 +63,16 @@ Partial Class Login
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.WindowsApplication1.My.Resources.Resources.Login
         Me.ClientSize = New System.Drawing.Size(784, 562)
+        Me.Controls.Add(Me.tbPassword)
+        Me.Controls.Add(Me.tbNome)
         Me.Controls.Add(Me.Button2)
         Me.Name = "Login"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
     Friend WithEvents Button2 As System.Windows.Forms.Button
+    Friend WithEvents tbNome As System.Windows.Forms.TextBox
+    Friend WithEvents tbPassword As System.Windows.Forms.TextBox
 End Class
