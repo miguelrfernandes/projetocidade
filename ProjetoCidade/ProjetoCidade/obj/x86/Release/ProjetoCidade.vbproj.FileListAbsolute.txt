@@ -1,0 +1,5 @@
+F:\Programação orientada por objetos\Projeto Cidade\ProjetoCidade\ProjetoCidade\obj\x86\Release\WindowsApplication1.Cidade.resources
+F:\Programação orientada por objetos\Projeto Cidade\ProjetoCidade\ProjetoCidade\obj\x86\Release\WindowsApplication1.Museu.resources
+F:\Programação orientada por objetos\Projeto Cidade\ProjetoCidade\ProjetoCidade\obj\x86\Release\WindowsApplication1.Roleta.resources
+F:\Programação orientada por objetos\Projeto Cidade\ProjetoCidade\ProjetoCidade\obj\x86\Release\WindowsApplication1.Resources.resources
+F:\Programação orientada por objetos\Projeto Cidade\ProjetoCidade\ProjetoCidade\obj\x86\Release\ProjetoCidade.vbproj.GenerateResource.Cache

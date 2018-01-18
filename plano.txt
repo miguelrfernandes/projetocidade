@@ -1,0 +1,23 @@
+cidade
+--casino
+----random
+--museu
+----quiz
+------ler ficheiros
+--escola
+----matemática
+------calculadora
+----física
+------gráficos
+
+--sala de jogos
+-spaceinvaders
+-tetris
+-pacman
+-mario
+-snake
+
+-dinheiro
+--ir às compras
+
+-animação do carro
