@@ -16,3 +16,12 @@ F:\Programação orientada por objetos\Space Invaders\SpaceInvaders\SpaceInvader
 F:\Programação orientada por objetos\Space Invaders\SpaceInvaders\SpaceInvaders\obj\x86\Debug\WindowsApplication1.Resources.resources
 F:\Programação orientada por objetos\Space Invaders\SpaceInvaders\SpaceInvaders\obj\x86\Debug\SpaceInvaders.vbproj.GenerateResource.Cache
 F:\Programação orientada por objetos\Space Invaders\SpaceInvaders\SpaceInvaders\obj\x86\Debug\WindowsApplication1.SpaceInvaders.resources
+C:\Users\Migue\OneDrive\Documentos\GitHub\projetocidade\Space Invaders\SpaceInvaders\SpaceInvaders\bin\Debug\SpaceInvaders.exe
+C:\Users\Migue\OneDrive\Documentos\GitHub\projetocidade\Space Invaders\SpaceInvaders\SpaceInvaders\bin\Debug\SpaceInvaders.pdb
+C:\Users\Migue\OneDrive\Documentos\GitHub\projetocidade\Space Invaders\SpaceInvaders\SpaceInvaders\bin\Debug\SpaceInvaders.xml
+C:\Users\Migue\OneDrive\Documentos\GitHub\projetocidade\Space Invaders\SpaceInvaders\SpaceInvaders\obj\x86\Debug\WindowsApplication1.SpaceInvaders.resources
+C:\Users\Migue\OneDrive\Documentos\GitHub\projetocidade\Space Invaders\SpaceInvaders\SpaceInvaders\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\Migue\OneDrive\Documentos\GitHub\projetocidade\Space Invaders\SpaceInvaders\SpaceInvaders\obj\x86\Debug\SpaceInvaders.vbproj.GenerateResource.Cache
+C:\Users\Migue\OneDrive\Documentos\GitHub\projetocidade\Space Invaders\SpaceInvaders\SpaceInvaders\obj\x86\Debug\SpaceInvaders.exe
+C:\Users\Migue\OneDrive\Documentos\GitHub\projetocidade\Space Invaders\SpaceInvaders\SpaceInvaders\obj\x86\Debug\SpaceInvaders.xml
+C:\Users\Migue\OneDrive\Documentos\GitHub\projetocidade\Space Invaders\SpaceInvaders\SpaceInvaders\obj\x86\Debug\SpaceInvaders.pdb
