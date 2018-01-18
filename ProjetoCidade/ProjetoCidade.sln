@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Basic Express 2010
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ProjetoCidade", "ProjetoCidade\ProjetoCidade.vbproj", "{2F488FF1-5792-4A8D-9F2D-62D4EAEF86D8}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SpaceInvaders", "..\..\Space Invaders\SpaceInvaders\SpaceInvaders\SpaceInvaders.vbproj", "{5995C30F-4026-46A0-B81D-1B384CCB4B00}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SpaceInvaders", "..\Space Invaders\SpaceInvaders\SpaceInvaders\SpaceInvaders.vbproj", "{5995C30F-4026-46A0-B81D-1B384CCB4B00}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

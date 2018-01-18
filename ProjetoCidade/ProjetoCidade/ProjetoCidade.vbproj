@@ -179,7 +179,7 @@
     <None Include="Resources\roletaimagem.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Space Invaders\SpaceInvaders\SpaceInvaders\SpaceInvaders.vbproj">
+    <ProjectReference Include="..\..\Space Invaders\SpaceInvaders\SpaceInvaders\SpaceInvaders.vbproj">
       <Project>{5995C30F-4026-46A0-B81D-1B384CCB4B00}</Project>
       <Name>SpaceInvaders</Name>
     </ProjectReference>
