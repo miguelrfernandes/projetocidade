@@ -1,9 +1,12 @@
-﻿Public Class Login
+﻿Imports System
+Imports System.IO
+Public Class Login
     Dim Total As Integer
     Dim utilizadores(99, 2) As String
 
     Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
-        FileOpen(1, "E:\utilizadores.txt", OpenMode.Input)
+        Dim path As String = Directory.GetCurrentDirectory()
+        FileOpen(1, path & "\utilizadores.txt", OpenMode.Input)
         Input(1, Total)
         For i = 1 To Total
             Input(1, utilizadores(i, 1))
