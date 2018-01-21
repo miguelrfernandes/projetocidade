@@ -148,6 +148,9 @@
     <EmbeddedResource Include="Museu.resx">
       <DependentUpon>Museu.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Registar.resx">
+      <DependentUpon>Registar.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Roleta.resx">
       <DependentUpon>Roleta.vb</DependentUpon>
     </EmbeddedResource>

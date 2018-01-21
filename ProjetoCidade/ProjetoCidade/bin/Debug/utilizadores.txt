@@ -1,3 +1,4 @@
-2
+3
 "miguel", "password"
 "francisco", "password"
+"user", "password"
