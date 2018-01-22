@@ -10,7 +10,13 @@
     End Sub
 
     Private Sub Button3_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button3.Click
-        Dim fileReader As String
-        fileReader = My.Computer.FileSystem.ReadAllText("F:\test.txt")
+        Me.Hide()
+        Registar.Show()
+
+    End Sub
+
+    Private Sub AjudaToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles AjudaToolStripMenuItem.Click
+        Ajuda.Show()
+
     End Sub
 End Class

@@ -25,6 +25,10 @@ Partial Class Inicio
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
+        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
+        Me.MenuToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AjudaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'Button1
@@ -36,7 +40,7 @@ Partial Class Inicio
         Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.ForeColor = System.Drawing.Color.Black
-        Me.Button1.Location = New System.Drawing.Point(42, 447)
+        Me.Button1.Location = New System.Drawing.Point(391, 239)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(164, 56)
         Me.Button1.TabIndex = 0
@@ -51,7 +55,7 @@ Partial Class Inicio
         Me.Button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.ForeColor = System.Drawing.Color.Black
-        Me.Button2.Location = New System.Drawing.Point(42, 624)
+        Me.Button2.Location = New System.Drawing.Point(391, 417)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(164, 56)
         Me.Button2.TabIndex = 0
@@ -66,27 +70,58 @@ Partial Class Inicio
         Me.Button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.ForeColor = System.Drawing.Color.Black
-        Me.Button3.Location = New System.Drawing.Point(42, 509)
+        Me.Button3.Location = New System.Drawing.Point(391, 301)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(227, 72)
         Me.Button3.TabIndex = 0
         Me.Button3.UseVisualStyleBackColor = False
         '
+        'MenuStrip1
+        '
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MenuToolStripMenuItem})
+        Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
+        Me.MenuStrip1.Name = "MenuStrip1"
+        Me.MenuStrip1.Size = New System.Drawing.Size(1008, 24)
+        Me.MenuStrip1.TabIndex = 1
+        Me.MenuStrip1.Text = "MenuStrip1"
+        '
+        'MenuToolStripMenuItem
+        '
+        Me.MenuToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AjudaToolStripMenuItem})
+        Me.MenuToolStripMenuItem.Name = "MenuToolStripMenuItem"
+        Me.MenuToolStripMenuItem.Size = New System.Drawing.Size(50, 20)
+        Me.MenuToolStripMenuItem.Text = "Menu"
+        '
+        'AjudaToolStripMenuItem
+        '
+        Me.AjudaToolStripMenuItem.Name = "AjudaToolStripMenuItem"
+        Me.AjudaToolStripMenuItem.Size = New System.Drawing.Size(105, 22)
+        Me.AjudaToolStripMenuItem.Text = "Ajuda"
+        '
         'Inicio
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = Global.WindowsApplication1.My.Resources.Resources.Início
-        Me.ClientSize = New System.Drawing.Size(1008, 730)
+        Me.BackgroundImage = Global.WindowsApplication1.My.Resources.Resources.Início1024x728
+        Me.ClientSize = New System.Drawing.Size(1008, 689)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.MenuStrip1)
+        Me.MainMenuStrip = Me.MenuStrip1
+        Me.MaximizeBox = False
         Me.Name = "Inicio"
-        Me.Text = "Form1"
+        Me.Text = "Início"
+        Me.MenuStrip1.ResumeLayout(False)
+        Me.MenuStrip1.PerformLayout()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents Button3 As System.Windows.Forms.Button
+    Friend WithEvents MenuStrip1 As System.Windows.Forms.MenuStrip
+    Friend WithEvents MenuToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents AjudaToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
 End Class

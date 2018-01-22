@@ -27,6 +27,10 @@ ProjetoCidade
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.Início1024x728">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:WindowsApplication1.My.Resources.Resources.Login">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
