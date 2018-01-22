@@ -101,5 +101,3 @@ C:\Users\Aluno.E2-INF1-12\Documents\github\projetocidade\ProjetoCidade\ProjetoCi
 C:\Users\Aluno.E2-INF1-12\Documents\github\projetocidade\ProjetoCidade\ProjetoCidade\obj\x86\Debug\WindowsApplication1.Resources.resources
 C:\Users\Aluno.E2-INF1-12\Documents\github\projetocidade\ProjetoCidade\ProjetoCidade\obj\x86\Debug\ProjetoCidade.vbproj.GenerateResource.Cache
 C:\Users\Aluno.E2-INF1-12\Documents\github\projetocidade\ProjetoCidade\ProjetoCidade\obj\x86\Debug\WindowsApplication1.Ajuda.resources
-C:\Users\Migue\OneDrive\Documentos\GitHub\projetocidade\ProjetoCidade\ProjetoCidade\obj\x86\Debug\WindowsApplication1.Ajuda.resources
-C:\Users\Migue\OneDrive\Documentos\GitHub\projetocidade\ProjetoCidade\ProjetoCidade\obj\x86\Debug\WindowsApplication1.Registar.resources
