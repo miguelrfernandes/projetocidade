@@ -5,6 +5,7 @@ Public Class Login
     Dim utilizadores(99, 2) As String
 
     Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
+        Dim loginSucedido As Boolean = False
         Dim path As String = Directory.GetCurrentDirectory()
         FileOpen(1, path & "\utilizadores.txt", OpenMode.Input)
         Input(1, Total)
@@ -22,12 +23,12 @@ Public Class Login
                 If password = utilizadores(i, 2) Then
                     Me.Hide()
                     Cidade.Show()
-                Else
-                    MsgBox("Password ou utilizador errado")
+                    loginSucedido = True
                 End If
-            Else
-                MsgBox("Password ou utilizador errado")
             End If
         Next i
+        If loginSucedido = False Then
+            MsgBox("Password ou utilizador errado")
+        End If
     End Sub
 End Class

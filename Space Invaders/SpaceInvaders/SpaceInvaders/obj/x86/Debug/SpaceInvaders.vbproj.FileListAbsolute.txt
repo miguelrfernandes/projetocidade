@@ -34,3 +34,12 @@ C:\Users\Silva\Documents\GitHub\projetocidade\Space Invaders\SpaceInvaders\Space
 C:\Users\Silva\Documents\GitHub\projetocidade\Space Invaders\SpaceInvaders\SpaceInvaders\obj\x86\Debug\SpaceInvaders.exe
 C:\Users\Silva\Documents\GitHub\projetocidade\Space Invaders\SpaceInvaders\SpaceInvaders\obj\x86\Debug\SpaceInvaders.xml
 C:\Users\Silva\Documents\GitHub\projetocidade\Space Invaders\SpaceInvaders\SpaceInvaders\obj\x86\Debug\SpaceInvaders.pdb
+C:\Users\Aluno.E2-INF1-12\Documents\github\projetocidade\Space Invaders\SpaceInvaders\SpaceInvaders\bin\Debug\SpaceInvaders.exe
+C:\Users\Aluno.E2-INF1-12\Documents\github\projetocidade\Space Invaders\SpaceInvaders\SpaceInvaders\bin\Debug\SpaceInvaders.pdb
+C:\Users\Aluno.E2-INF1-12\Documents\github\projetocidade\Space Invaders\SpaceInvaders\SpaceInvaders\bin\Debug\SpaceInvaders.xml
+C:\Users\Aluno.E2-INF1-12\Documents\github\projetocidade\Space Invaders\SpaceInvaders\SpaceInvaders\obj\x86\Debug\WindowsApplication1.SpaceInvaders.resources
+C:\Users\Aluno.E2-INF1-12\Documents\github\projetocidade\Space Invaders\SpaceInvaders\SpaceInvaders\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\Aluno.E2-INF1-12\Documents\github\projetocidade\Space Invaders\SpaceInvaders\SpaceInvaders\obj\x86\Debug\SpaceInvaders.vbproj.GenerateResource.Cache
+C:\Users\Aluno.E2-INF1-12\Documents\github\projetocidade\Space Invaders\SpaceInvaders\SpaceInvaders\obj\x86\Debug\SpaceInvaders.exe
+C:\Users\Aluno.E2-INF1-12\Documents\github\projetocidade\Space Invaders\SpaceInvaders\SpaceInvaders\obj\x86\Debug\SpaceInvaders.xml
+C:\Users\Aluno.E2-INF1-12\Documents\github\projetocidade\Space Invaders\SpaceInvaders\SpaceInvaders\obj\x86\Debug\SpaceInvaders.pdb

@@ -14,4 +14,9 @@
         Registar.Show()
 
     End Sub
+
+    Private Sub AjudaToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles AjudaToolStripMenuItem.Click
+        Ajuda.Show()
+
+    End Sub
 End Class
