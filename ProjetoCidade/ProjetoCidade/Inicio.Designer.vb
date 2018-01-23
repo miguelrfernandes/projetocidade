@@ -95,7 +95,7 @@ Partial Class Inicio
         'AjudaToolStripMenuItem
         '
         Me.AjudaToolStripMenuItem.Name = "AjudaToolStripMenuItem"
-        Me.AjudaToolStripMenuItem.Size = New System.Drawing.Size(105, 22)
+        Me.AjudaToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.AjudaToolStripMenuItem.Text = "Ajuda"
         '
         'Inicio

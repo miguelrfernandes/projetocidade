@@ -78,10 +78,10 @@
     <Compile Include="Casino.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="Ajuda.Designer.vb">
+      <DependentUpon>Ajuda.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form1.vb">
+    <Compile Include="Ajuda.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Registar.Designer.vb">
@@ -145,8 +145,8 @@
     <EmbeddedResource Include="Cidade.resx">
       <DependentUpon>Cidade.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <EmbeddedResource Include="Ajuda.resx">
+      <DependentUpon>Ajuda.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Inicio.resx">
       <DependentUpon>Inicio.vb</DependentUpon>

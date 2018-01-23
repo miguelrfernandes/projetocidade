@@ -85,3 +85,6 @@ C:\Users\Aluno.E2-INF1-12\Desktop\Projetos API\Connect The Countries!\Connect Th
 C:\Users\Aluno.E2-INF1-12\Desktop\Projetos API\Connect The Countries!\Connect The Countries!\obj\x86\Debug\WindowsApplication1.Form5.resources
 C:\Users\Aluno.E2-INF1-12\Desktop\Projetos API\Connect The Countries!\Connect The Countries!\obj\x86\Debug\WindowsApplication1.Form4.resources
 C:\Users\Aluno.E2-INF1-12\Desktop\Projetos API\Connect The Countries!\Connect The Countries!\obj\x86\Debug\Connect The Countries!.vbproj.GenerateResource.Cache
+C:\Users\Migue\OneDrive\Documentos\GitHub\projetocidade\Projetos API\Connect The Countries!\Connect The Countries!\obj\x86\Debug\Connect The Countries!.exe
+C:\Users\Migue\OneDrive\Documentos\GitHub\projetocidade\Projetos API\Connect The Countries!\Connect The Countries!\obj\x86\Debug\Connect The Countries!.xml
+C:\Users\Migue\OneDrive\Documentos\GitHub\projetocidade\Projetos API\Connect The Countries!\Connect The Countries!\obj\x86\Debug\Connect The Countries!.pdb
