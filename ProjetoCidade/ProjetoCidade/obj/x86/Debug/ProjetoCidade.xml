@@ -15,6 +15,14 @@ ProjetoCidade
   Overrides the current thread's CurrentUICulture property for all
   resource lookups using this strongly typed resource class.
 </summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources._1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources._2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:WindowsApplication1.My.Resources.Resources.casinoimagem">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -32,6 +40,10 @@ ProjetoCidade
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member><member name="P:WindowsApplication1.My.Resources.Resources.Login">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.Museu1024x728">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

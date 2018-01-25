@@ -30,12 +30,14 @@ Partial Class Museu
         Me.RadioButton3 = New System.Windows.Forms.RadioButton()
         Me.RadioButton4 = New System.Windows.Forms.RadioButton()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.quadro = New System.Windows.Forms.PictureBox()
+        CType(Me.quadro, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(82, 30)
+        Me.Label1.Location = New System.Drawing.Point(493, 60)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(28, 13)
         Me.Label1.TabIndex = 0
@@ -44,7 +46,7 @@ Partial Class Museu
         'lbPergunta
         '
         Me.lbPergunta.AutoSize = True
-        Me.lbPergunta.Location = New System.Drawing.Point(37, 58)
+        Me.lbPergunta.Location = New System.Drawing.Point(468, 97)
         Me.lbPergunta.Name = "lbPergunta"
         Me.lbPergunta.Size = New System.Drawing.Size(93, 13)
         Me.lbPergunta.TabIndex = 1
@@ -52,9 +54,9 @@ Partial Class Museu
         '
         'bStart
         '
-        Me.bStart.Location = New System.Drawing.Point(85, 203)
+        Me.bStart.Location = New System.Drawing.Point(40, 592)
         Me.bStart.Name = "bStart"
-        Me.bStart.Size = New System.Drawing.Size(75, 23)
+        Me.bStart.Size = New System.Drawing.Size(169, 67)
         Me.bStart.TabIndex = 2
         Me.bStart.Text = "Começar"
         Me.bStart.UseVisualStyleBackColor = True
@@ -62,7 +64,7 @@ Partial Class Museu
         'RadioButton1
         '
         Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Location = New System.Drawing.Point(20, 158)
+        Me.RadioButton1.Location = New System.Drawing.Point(252, 561)
         Me.RadioButton1.Name = "RadioButton1"
         Me.RadioButton1.Size = New System.Drawing.Size(90, 17)
         Me.RadioButton1.TabIndex = 3
@@ -73,7 +75,7 @@ Partial Class Museu
         'RadioButton2
         '
         Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Location = New System.Drawing.Point(20, 182)
+        Me.RadioButton2.Location = New System.Drawing.Point(252, 617)
         Me.RadioButton2.Name = "RadioButton2"
         Me.RadioButton2.Size = New System.Drawing.Size(90, 17)
         Me.RadioButton2.TabIndex = 4
@@ -84,7 +86,7 @@ Partial Class Museu
         'RadioButton3
         '
         Me.RadioButton3.AutoSize = True
-        Me.RadioButton3.Location = New System.Drawing.Point(20, 206)
+        Me.RadioButton3.Location = New System.Drawing.Point(570, 561)
         Me.RadioButton3.Name = "RadioButton3"
         Me.RadioButton3.Size = New System.Drawing.Size(90, 17)
         Me.RadioButton3.TabIndex = 5
@@ -95,7 +97,7 @@ Partial Class Museu
         'RadioButton4
         '
         Me.RadioButton4.AutoSize = True
-        Me.RadioButton4.Location = New System.Drawing.Point(20, 229)
+        Me.RadioButton4.Location = New System.Drawing.Point(570, 617)
         Me.RadioButton4.Name = "RadioButton4"
         Me.RadioButton4.Size = New System.Drawing.Size(90, 17)
         Me.RadioButton4.TabIndex = 6
@@ -105,18 +107,33 @@ Partial Class Museu
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(109, 293)
+        Me.Button1.Location = New System.Drawing.Point(771, 592)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 7
         Me.Button1.Text = "Continuar"
         Me.Button1.UseVisualStyleBackColor = True
         '
+        'quadro
+        '
+        Me.quadro.BackColor = System.Drawing.Color.Transparent
+        Me.quadro.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.quadro.Image = Global.WindowsApplication1.My.Resources.Resources._1
+        Me.quadro.Location = New System.Drawing.Point(336, 156)
+        Me.quadro.Name = "quadro"
+        Me.quadro.Size = New System.Drawing.Size(354, 289)
+        Me.quadro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.quadro.TabIndex = 8
+        Me.quadro.TabStop = False
+        Me.quadro.Visible = False
+        '
         'Museu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(310, 341)
+        Me.BackgroundImage = Global.WindowsApplication1.My.Resources.Resources.Museu1024x728
+        Me.ClientSize = New System.Drawing.Size(1008, 690)
+        Me.Controls.Add(Me.quadro)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.RadioButton4)
         Me.Controls.Add(Me.RadioButton3)
@@ -127,6 +144,7 @@ Partial Class Museu
         Me.Controls.Add(Me.Label1)
         Me.Name = "Museu"
         Me.Text = "Museu — Quiz"
+        CType(Me.quadro, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -139,4 +157,5 @@ Partial Class Museu
     Friend WithEvents RadioButton3 As System.Windows.Forms.RadioButton
     Friend WithEvents RadioButton4 As System.Windows.Forms.RadioButton
     Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents quadro As System.Windows.Forms.PictureBox
 End Class
