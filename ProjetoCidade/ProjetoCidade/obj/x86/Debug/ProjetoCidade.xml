@@ -31,6 +31,10 @@ ProjetoCidade
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.Cidade1024x7281">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:WindowsApplication1.My.Resources.Resources.cidadeimagem">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -48,6 +52,10 @@ ProjetoCidade
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member><member name="P:WindowsApplication1.My.Resources.Resources.Museu1024x728">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:WindowsApplication1.My.Resources.Resources.redd_angelo_375804">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

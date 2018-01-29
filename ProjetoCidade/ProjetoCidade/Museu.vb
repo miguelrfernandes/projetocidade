@@ -3,27 +3,23 @@ Imports System.IO
 
 Public Class Museu
     Dim path As String = Directory.GetCurrentDirectory()
-    Private Sub bStart_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles bStart.Click
-        bStart.Hide()
-        programa()
-    End Sub
-
-    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles bContinuar.Click
-        programa()
-        resposta()
-
-
-    End Sub
 
     Dim numresposta As Integer
 
+    Dim registo(9) As Integer
+
+    Dim registocontador As Integer = 0
+
+    Dim PrimeiraVez As Boolean = True
+
     Private Sub programa()
+        PrimeiraVez = False
         lbPergunta.Show()
         RadioButton1.Show()
         RadioButton2.Show()
         RadioButton3.Show()
         RadioButton4.Show()
-
+        bContinuar.Show()
 
         Dim numquadro As Integer
 
@@ -31,9 +27,19 @@ Public Class Museu
         'randomizar numero do quadro
         Randomize()
 
-        numquadro = Rnd() * 9
         numresposta = Rnd() * 3
-        'MsgBox(path & "museu\" & numquadro & ".jpg")
+        If registocontador = 10 Then
+            MsgBox("O jogo acabou!")
+            Me.Hide()
+            Cidade.Show()
+        End If
+        numquadro = Rnd() * 9
+        While registo(numquadro) = 1
+            numquadro = Rnd() * 9
+        End While
+        registo(numquadro) = 1
+        registocontador += 1
+
 
         quadro.Image = Image.FromFile(path & "\museu\" & numquadro & ".jpg")
         quadro.Show()
@@ -43,7 +49,6 @@ Public Class Museu
         Input(1, opcoes(2))
         Input(1, opcoes(3))
         FileClose(1)
-        MsgBox(numresposta)
         Select Case numresposta
             Case 0
                 RadioButton1.Text = opcoes(0)
@@ -70,7 +75,6 @@ Public Class Museu
 
     Private Sub resposta()
         Dim answer As Boolean = False
-        MsgBox(numresposta)
         If RadioButton1.Checked And numresposta = 0 Then
             answer = True
         End If
@@ -86,7 +90,35 @@ Public Class Museu
 
         If answer Then
             MsgBox("Resposta Acertada!")
+        Else
+            MsgBox("Reposta Errada!")
         End If
 
+    End Sub
+
+    Private Sub bStart_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles bStart.Click
+        bStart.Hide()
+        For i As Integer = 0 To 9
+            registo(i) = 0
+        Next
+        programa()
+    End Sub
+
+    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles bContinuar.Click
+        resposta()
+        programa()
+    End Sub
+
+    Private Sub XToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles XToolStripMenuItem.Click, FecharToolStripMenuItem.Click, Button1.Click
+        Me.Hide()
+        Cidade.Show()
+    End Sub
+
+    Private Sub JogarToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles JogarToolStripMenuItem.Click
+        bStart.Hide()
+        If Not PrimeiraVez Then
+            resposta()
+        End If
+        programa()
     End Sub
 End Class

@@ -1,39 +1,25 @@
 ﻿
 Public Class Cidade
-
-    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
-        Me.Hide()
-        Casino.Show()
-        lbSaldo.Hide()
-        Button1.Hide()
-        Button2.Hide()
-        Button3.Show()
-    End Sub
-
-
-    Private Sub sair_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles sair.Click
+    Private Sub sair_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles sair.Click, ToolStripMenuItem1.Click
+        Inicio.Close()
         Me.Close()
     End Sub
 
-    Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
+    Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click, MuseuToolStripMenuItem.Click
         Me.Hide()
         Museu.Show()
-        lbSaldo.Hide()
-        Button1.Hide()
-        Button2.Hide()
-        Button3.Show()
     End Sub
 
-    Private Sub Cidade_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-
+    Private Sub RoletaToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles RoletaToolStripMenuItem.Click, Button1.Click
+        Me.Hide()
+        Roleta.Show()
     End Sub
 
-    Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button3.Click
-        lbSaldo.Text = "Saldo: " & VariaveisGlobais.saldo & "€"
-        lbSaldo.Show()
-        Button1.Show()
-        Button2.Show()
-        Button3.Hide()
+    Dim SI = New SpaceInvaders()
+
+    Private Sub SpaceInvadersToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles SpaceInvadersToolStripMenuItem.Click, Button3.Click
+        SI.Show()
+        Me.Hide()
     End Sub
 End Class
 

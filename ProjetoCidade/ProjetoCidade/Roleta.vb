@@ -1,7 +1,5 @@
 ﻿Public Class Roleta
-
-
-    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+    Private Sub rodar()
         Dim sorte As Integer
         Dim aposta As Integer
         Dim resultado As Integer
@@ -39,7 +37,15 @@
         End If
     End Sub
 
-    Private Sub voltar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles voltar.Click
+    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click, JogarToolStripMenuItem.Click
+        Try
+            rodar()
+        Catch ex As Exception
+            MsgBox("Erro")
+        End Try
+    End Sub
+
+    Private Sub voltar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles voltar.Click, FecharToolStripMenuItem.Click, X.Click
         Me.Hide()
         Cidade.Show()
     End Sub

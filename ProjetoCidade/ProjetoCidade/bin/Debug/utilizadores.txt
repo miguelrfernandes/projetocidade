@@ -1,10 +1,4 @@
-9
+3
 "miguel","password"
 "francisco","password"
 "asd","asd"
-"asdss","asdds"
-"asds","sdsdsdaa"
-"gh","gh"
-"sad","asd"
-"",""
-"",""
