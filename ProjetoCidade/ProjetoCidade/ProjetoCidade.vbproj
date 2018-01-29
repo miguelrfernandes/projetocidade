@@ -84,6 +84,12 @@
     <Compile Include="Ajuda.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Sobre.Designer.vb">
+      <DependentUpon>Sobre.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sobre.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Registar.Designer.vb">
       <DependentUpon>Registar.vb</DependentUpon>
     </Compile>
@@ -213,6 +219,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cidade1024x728.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

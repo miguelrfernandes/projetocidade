@@ -43,6 +43,7 @@ Partial Class Ajuda
         Me.ClientSize = New System.Drawing.Size(284, 262)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Ajuda"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Ajuda"
         Me.ResumeLayout(False)
         Me.PerformLayout()

@@ -88,15 +88,19 @@ Partial Class Cidade
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = Global.WindowsApplication1.My.Resources.Resources.cidadeimagem
+        Me.BackgroundImage = Global.WindowsApplication1.My.Resources.Resources.Cidade1024x728
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.ClientSize = New System.Drawing.Size(607, 762)
+        Me.ClientSize = New System.Drawing.Size(1008, 690)
         Me.Controls.Add(Me.sair)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.lbSaldo)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button1)
+        Me.MaximizeBox = False
+        Me.MaximumSize = New System.Drawing.Size(1024, 728)
+        Me.MinimumSize = New System.Drawing.Size(1024, 728)
         Me.Name = "Cidade"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Cidade"
         Me.ResumeLayout(False)
         Me.PerformLayout()

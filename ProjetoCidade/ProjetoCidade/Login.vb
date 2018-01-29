@@ -5,6 +5,17 @@ Public Class Login
     Dim utilizadores(99, 2) As String
 
     Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
+        
+    End Sub
+
+    Private Sub Login_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub EntrarToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles EntrarToolStripMenuItem.Click
+        entrar()
+    End Sub
+    Private Sub entrar()
         Dim loginSucedido As Boolean = False
         Dim path As String = Directory.GetCurrentDirectory()
         FileOpen(1, path & "\utilizadores.txt", OpenMode.Input)
@@ -22,6 +33,7 @@ Public Class Login
             If utilizador = utilizadores(i, 1) Then
                 If password = utilizadores(i, 2) Then
                     Me.Hide()
+                    Inicio.Hide()
                     Cidade.Show()
                     loginSucedido = True
                 End If

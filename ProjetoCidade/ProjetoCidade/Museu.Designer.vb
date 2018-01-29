@@ -29,7 +29,7 @@ Partial Class Museu
         Me.RadioButton2 = New System.Windows.Forms.RadioButton()
         Me.RadioButton3 = New System.Windows.Forms.RadioButton()
         Me.RadioButton4 = New System.Windows.Forms.RadioButton()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.bContinuar = New System.Windows.Forms.Button()
         Me.quadro = New System.Windows.Forms.PictureBox()
         CType(Me.quadro, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -46,11 +46,12 @@ Partial Class Museu
         'lbPergunta
         '
         Me.lbPergunta.AutoSize = True
-        Me.lbPergunta.Location = New System.Drawing.Point(468, 97)
+        Me.lbPergunta.Location = New System.Drawing.Point(428, 499)
         Me.lbPergunta.Name = "lbPergunta"
-        Me.lbPergunta.Size = New System.Drawing.Size(93, 13)
+        Me.lbPergunta.Size = New System.Drawing.Size(101, 13)
         Me.lbPergunta.TabIndex = 1
-        Me.lbPergunta.Text = "Responde ao quiz"
+        Me.lbPergunta.Text = "Que quadro é este?"
+        Me.lbPergunta.Visible = False
         '
         'bStart
         '
@@ -71,6 +72,7 @@ Partial Class Museu
         Me.RadioButton1.TabStop = True
         Me.RadioButton1.Text = "RadioButton1"
         Me.RadioButton1.UseVisualStyleBackColor = True
+        Me.RadioButton1.Visible = False
         '
         'RadioButton2
         '
@@ -82,6 +84,7 @@ Partial Class Museu
         Me.RadioButton2.TabStop = True
         Me.RadioButton2.Text = "RadioButton2"
         Me.RadioButton2.UseVisualStyleBackColor = True
+        Me.RadioButton2.Visible = False
         '
         'RadioButton3
         '
@@ -93,6 +96,7 @@ Partial Class Museu
         Me.RadioButton3.TabStop = True
         Me.RadioButton3.Text = "RadioButton3"
         Me.RadioButton3.UseVisualStyleBackColor = True
+        Me.RadioButton3.Visible = False
         '
         'RadioButton4
         '
@@ -104,15 +108,16 @@ Partial Class Museu
         Me.RadioButton4.TabStop = True
         Me.RadioButton4.Text = "RadioButton4"
         Me.RadioButton4.UseVisualStyleBackColor = True
+        Me.RadioButton4.Visible = False
         '
-        'Button1
+        'bContinuar
         '
-        Me.Button1.Location = New System.Drawing.Point(771, 592)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 7
-        Me.Button1.Text = "Continuar"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.bContinuar.Location = New System.Drawing.Point(771, 592)
+        Me.bContinuar.Name = "bContinuar"
+        Me.bContinuar.Size = New System.Drawing.Size(75, 23)
+        Me.bContinuar.TabIndex = 7
+        Me.bContinuar.Text = "Continuar"
+        Me.bContinuar.UseVisualStyleBackColor = True
         '
         'quadro
         '
@@ -134,7 +139,7 @@ Partial Class Museu
         Me.BackgroundImage = Global.WindowsApplication1.My.Resources.Resources.Museu1024x728
         Me.ClientSize = New System.Drawing.Size(1008, 690)
         Me.Controls.Add(Me.quadro)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.bContinuar)
         Me.Controls.Add(Me.RadioButton4)
         Me.Controls.Add(Me.RadioButton3)
         Me.Controls.Add(Me.RadioButton2)
@@ -143,6 +148,7 @@ Partial Class Museu
         Me.Controls.Add(Me.lbPergunta)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Museu"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Museu — Quiz"
         CType(Me.quadro, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
@@ -156,6 +162,6 @@ Partial Class Museu
     Friend WithEvents RadioButton2 As System.Windows.Forms.RadioButton
     Friend WithEvents RadioButton3 As System.Windows.Forms.RadioButton
     Friend WithEvents RadioButton4 As System.Windows.Forms.RadioButton
-    Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents bContinuar As System.Windows.Forms.Button
     Friend WithEvents quadro As System.Windows.Forms.PictureBox
 End Class

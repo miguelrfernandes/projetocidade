@@ -70,6 +70,7 @@ Partial Class Registar
         Me.Controls.Add(Me.tbPassword)
         Me.Controls.Add(Me.tbUser)
         Me.Name = "Registar"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Regista a tua conta"
         Me.ResumeLayout(False)
         Me.PerformLayout()
