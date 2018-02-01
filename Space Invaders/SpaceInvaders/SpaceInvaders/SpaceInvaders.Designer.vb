@@ -47,6 +47,11 @@ Partial Class SpaceInvaders
         Me.tiro5 = New System.Windows.Forms.Label()
         Me.tiro6 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
+        Me.ComeçarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ComeçarToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.FecharToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         CType(Me.alien1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.nave, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.alien2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -62,6 +67,7 @@ Partial Class SpaceInvaders
         CType(Me.alien12, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.alien13, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.alien14, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'mover
@@ -305,12 +311,47 @@ Partial Class SpaceInvaders
         Me.Button1.Text = "Sair"
         Me.Button1.UseVisualStyleBackColor = True
         '
+        'MenuStrip1
+        '
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ComeçarToolStripMenuItem, Me.ToolStripMenuItem1})
+        Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
+        Me.MenuStrip1.Name = "MenuStrip1"
+        Me.MenuStrip1.Size = New System.Drawing.Size(1024, 24)
+        Me.MenuStrip1.TabIndex = 24
+        Me.MenuStrip1.Text = "MenuStrip1"
+        '
+        'ComeçarToolStripMenuItem
+        '
+        Me.ComeçarToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ComeçarToolStripMenuItem1, Me.FecharToolStripMenuItem})
+        Me.ComeçarToolStripMenuItem.Name = "ComeçarToolStripMenuItem"
+        Me.ComeçarToolStripMenuItem.Size = New System.Drawing.Size(50, 20)
+        Me.ComeçarToolStripMenuItem.Text = "Menu"
+        '
+        'ComeçarToolStripMenuItem1
+        '
+        Me.ComeçarToolStripMenuItem1.Name = "ComeçarToolStripMenuItem1"
+        Me.ComeçarToolStripMenuItem1.Size = New System.Drawing.Size(122, 22)
+        Me.ComeçarToolStripMenuItem1.Text = "Começar"
+        '
+        'FecharToolStripMenuItem
+        '
+        Me.FecharToolStripMenuItem.Name = "FecharToolStripMenuItem"
+        Me.FecharToolStripMenuItem.Size = New System.Drawing.Size(122, 22)
+        Me.FecharToolStripMenuItem.Text = "Fechar"
+        '
+        'ToolStripMenuItem1
+        '
+        Me.ToolStripMenuItem1.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right
+        Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
+        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(26, 20)
+        Me.ToolStripMenuItem1.Text = "X"
+        '
         'SpaceInvaders
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Black
-        Me.ClientSize = New System.Drawing.Size(1175, 679)
+        Me.ClientSize = New System.Drawing.Size(1024, 728)
         Me.Controls.Add(Me.tiro6)
         Me.Controls.Add(Me.tiro5)
         Me.Controls.Add(Me.tiro4)
@@ -334,8 +375,13 @@ Partial Class SpaceInvaders
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.bStart)
         Me.Controls.Add(Me.nave)
+        Me.Controls.Add(Me.MenuStrip1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.KeyPreview = True
+        Me.MainMenuStrip = Me.MenuStrip1
+        Me.MaximizeBox = False
         Me.Name = "SpaceInvaders"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Space Invaders"
         CType(Me.alien1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.nave, System.ComponentModel.ISupportInitialize).EndInit()
@@ -352,7 +398,10 @@ Partial Class SpaceInvaders
         CType(Me.alien12, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.alien13, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.alien14, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.MenuStrip1.ResumeLayout(False)
+        Me.MenuStrip1.PerformLayout()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
     Friend WithEvents nave As System.Windows.Forms.PictureBox
@@ -379,5 +428,10 @@ Partial Class SpaceInvaders
     Friend WithEvents tiro5 As System.Windows.Forms.Label
     Friend WithEvents tiro6 As System.Windows.Forms.Label
     Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents MenuStrip1 As System.Windows.Forms.MenuStrip
+    Friend WithEvents ComeçarToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ComeçarToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents FecharToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
 
 End Class

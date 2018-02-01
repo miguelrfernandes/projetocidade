@@ -60,7 +60,7 @@ Public Class SpaceInvaders
     End Sub
 #End Region
 
-    Private Sub bStart_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles bStart.Click
+    Private Sub bStart_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ComeçarToolStripMenuItem1.Click, bStart.Click
         bStart.Hide()
         Button1.Hide()
         nave.Show()
@@ -234,8 +234,11 @@ Public Class SpaceInvaders
     End Sub
 #End Region
 
-    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click, FecharToolStripMenuItem.Click, ToolStripMenuItem1.Click
         Me.Hide()
 
+
     End Sub
+
+
 End Class
